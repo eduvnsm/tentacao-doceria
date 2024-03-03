@@ -7,15 +7,15 @@ const MobileNav = () => {
   return (
     <Sheet>
         <SheetTrigger>
-            <Menu className="text-orange-500" />
+            <Menu className="text-red-500" />
         </SheetTrigger>
         <SheetContent className="space-y-3">
             <SheetTitle>
-                <span>Bem vindo à Tentação Doceria</span>
+                <span>Faça o Login</span>
             </SheetTitle>
             <Separator />
             <SheetDescription className="flex">
-                <Button className="flex-1 font-bold bg-orange-500">Entrar</Button>
+                <Button className="flex-1 font-bold bg-red-500">Entrar</Button>
             </SheetDescription>
         </SheetContent>
     </Sheet>
