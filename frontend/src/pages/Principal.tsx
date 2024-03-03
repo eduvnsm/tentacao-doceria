@@ -3,7 +3,7 @@ import appDownload from '@/assets/images/app-download.png';
 
 const Principal = () => {
   return (
-    <div className="flex flex-col gap-12">
+    <div className="font-nunito flex flex-col gap-12">
         <div className="bg-white rounded-lg shadow-md py-8 px-2 flex flex-col gap-5 text-center">
             <h1 className="text-5xl font-bold tracking-tight text-red-600">
                 SISTEMA TENTAÇÃO

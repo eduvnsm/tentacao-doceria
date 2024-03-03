@@ -7,7 +7,7 @@ const MobileNav = () => {
   return (
     <Sheet>
         <SheetTrigger>
-            <Menu className="text-red-500" />
+            <Menu className="text-red-600" />
         </SheetTrigger>
         <SheetContent className="space-y-3">
             <SheetTitle>
@@ -15,7 +15,7 @@ const MobileNav = () => {
             </SheetTitle>
             <Separator />
             <SheetDescription className="flex">
-                <Button className="flex-1 font-bold bg-red-500">Entrar</Button>
+                <Button className="flex-1 font-bold bg-red-600">Entrar</Button>
             </SheetDescription>
         </SheetContent>
     </Sheet>
